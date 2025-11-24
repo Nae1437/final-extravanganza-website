@@ -2,10 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fdfdfd;
 
   min-height: 100vh;
-  background: linear-gradient(to bottom, gray, black), black;
   background-repeat: no-repeat;
   background-size: 100% 90%, 100% 10%;
   background-position: top, bottom;
