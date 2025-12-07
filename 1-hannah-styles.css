@@ -78,12 +78,38 @@ body {
 
 .image-row {
   display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
+  align-items: center;
+  margin: 40px 0;
+  padding: 0 15px;
+  gap: 20px;  
 }
 
 .image-row img {
   width: 275px;
   height: auto;
+  flex-shrink: 0;
 }
+
+.text-block {
+  max-width: 500px;
+  color: white;
+}
+
+.text-block h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.text-block p {
+  line-height: 1.6;
+}
+
+
+.image-left {
+  justify-content: flex-start; 
+}
+
+.image-right {
+  justify-content: flex-end; 
+}
+
