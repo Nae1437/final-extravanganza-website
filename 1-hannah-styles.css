@@ -117,7 +117,7 @@ body {
 .text-block {
   max-width: 500px;
   color: white;
-  text-align: center; /* centers h2 and p together */
+  text-align: center;
   margin-left: 200px;
   margin-right: 200px;
 }

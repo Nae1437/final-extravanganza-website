@@ -4,7 +4,7 @@ body {
   background-color: #fdfdfd;
 
   min-height: 100vh;
-  background: linear-gradient(to bottom, rgb(59, 113, 222), black), black;
+  background: linear-gradient(to bottom, rgb(209, 61, 61), black), black;
   background-repeat: no-repeat;
   background-size: 100% 90%, 100% 10%;
   background-position: top, bottom;
@@ -81,40 +81,30 @@ body {
 
 
 .image-row-1 {
+  margin-top: 50px;
   display: flex;
-  flex-direction: row-reverse; 
+  justify-content: flex-end; 
   align-items: center;
   gap: 20px;
-  margin-top: 50px;
-  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .image-row-2 {
   display: flex;
-  flex-direction: row-reverse; 
+  justify-content: flex-start;
   align-items: center;
   gap: 20px;
   margin-left: 80px;
 }
-
 
 .image-row-3 {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  gap: 20px;
   margin-bottom: 50px;
-  margin-left: 80px;
-}
-
-
-.image-row {
   display: flex;
+  justify-content: flex-end; 
   align-items: center;
   gap: 20px;
-  margin: 50px 80px;
+  margin-right: 80px;
 }
-
 
 .image-row img {
   width: 350px;
@@ -131,7 +121,6 @@ body {
   margin-left: 200px;
   margin-right: 200px;
 }
-
 
 .text-block h2 {
   margin-top: 0;
